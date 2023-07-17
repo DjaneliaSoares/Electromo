@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* força o elemento a obeder o tamanho do container em que foi criado*/
+ 
+
+
+}
+body{
+	font-family: Ariel;
+}
+
+#top p{
+
+     height: 50px;
+     padding-top: 10px;
+     padding-left: 100px;
+     font-size: 18px;
+     color: white;
+	 background-color: 	#00BFFF;
+	 justify-content: space-between;
+
+}
+#login {
+    margin-left: 1050px;
+    margin-top: -50px;
+   
+}
+.configlogin{
+    text-decoration: none;
+    color: white;
+    padding-left: 3px;
+}
+
+#cabecalho  {
+padding-left: 100px;
+background-color: #E6E6E6;
+padding-top:10px;
+justify-content: space-between;
+height: 150px;
+
+
+
+
+
+}
+
+#area-logo{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    align-content: 10px;
+}
+#input{
+	margin-top: 20px;
+    margin-left: 100px;
+    height:30px;
+    width: 500px;
+
+}
+ .button {
+ 	  height:30px;
+ 	  width: 40px;
+ 	  background-color:#00BFFF;
+      color: white 
+
+ }
+ #contacto{
+ 	margin-top: 20px;
+ 	margin-left: 100px;
+ }
+
+ #caixaproduto{
+ 	background-color: #00BFFF;
+ 	margin-top: -28px;
+ 	margin-left: 50px;
+ 	width: 250px;
+ 	height: 43px;
+   
+ }
+#Produto{
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 19px;
+	color: white;
+}
+#caixap{
+    text-decoration: none;
+    color: white;
+}
+
+
+#cor{
+     color: #00BFFF;
+
+
+}
+
+
+
+#menu{
+    display: flex;
+    align-items: center; /* alinhando os elementos na vertical*/
+    margin-right: 100px;
+    padding-left: 450px;
+    padding-top: 30px;
+
+    
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 18px;
+}
+
+#menu a{
+    cursor: pointer; /* Mudar o cursor para uma mão*/
+    text-decoration: none;
+    color: black;
+    transition: all 1s; /* me permite determinar como vão ocorrer as transições, animações e transformações no elemento*/
+
+}
+#menu a:hover{
+    color: #00BFFF;
+    
+}
+.minhaconta{
+    padding-left: 200px;
+}
+
+.carrossel{
+  
+  overflow: hidden;
+    margin-right: 140px;
+    height: 350px;
+    width: 1176px;
+    margin-top: 30px;
+}
+
+
+
+.contaier {
+    object-fit: cover;
+    height: 350px;
+    width: 1176px;
+    
+}
+
+footer{
+    background-color: #424242;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: -100px;
+    color: #fff;
+   
+   
+}
+#inf{
+    margin-left: 50px;
+}
+.menufooter{
+    cursor: pointer; /* Mudar o cursor para uma mão*/
+    text-decoration: none;
+    color:#00BFFF ;
+    font-family: ariel;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.imgfooter{
+    margin-left: 60px;
+    margin-top: 8px;
+    
+}
+.cartao{
+    margin-top: 20px;
+    margin-left: -2px;
+    cursor: pointer;
+    text-align: left;
+    width: 330px;
+    border-radius: 16px; 
+}
+.cartao img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+            /* c.esq c.dir b.esq b.dir  */
+
+}
+
+.cartao .conteudo{
+    padding: 20px;
+}
+
+.cartao .conteudo p{
+    font-size: 14px;
+    color: #666;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+}
+
+.cartao .conteudo h4{
+    margin-bottom: 12px;
+    background-color: rgba(75,0,130,0.1);
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 30px;
+    color: #4B0082;
+
+}
+#posicao1{
+    margin-left: 425px;
+    margin-top: -420px; 
+
+}
+#posicao2{
+    margin-left: 850px;
+    margin-top: -420px; 
+
+}
+ .barra{
+    margin-top: 20px;
+    background-color: #E6E6E6;
+    height: 30px;
+   border-radius: 10px;
+   margin-right: 40px;
+   margin-left: -50px;
+
+
+ }
+ .menubarra{
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+ .menulateral{
+
+    margin-top: 30px;
+    margin-right: 1000px;
+    margin-left: -50px;
+    background-color: #FAFAFA; 
+ }
+.menucat{
+    display: inline-block;
+    cursor: pointer; /* Mudar o cursor para uma mão*/
+    text-decoration: none;
+    color: black;
+    font-family: ariel;
+    padding: 5px;
+}
+
+
+.menubarra a:hover{
+    color: #00BFFF;
+    }
+#produto1{
+ 	margin-left: 325px;
+    margin-top: -295px;
+
+
+}
+#produto2{
+    margin-left: 725px;
+    margin-top: -360px;
+
+
+}
+.detalhe{
+    margin-left: 150px; 
+    padding-top:  0px;
+    display: inline-block;
+    text-decoration: none
+}
+#tamanho{
+    margin-top: -5px;
+    font-size: 20px;
+}
+#detalhe{
+    text-decoration: none;
+
+}
+.conteudo a:hover{
+    color: #00BFFF;
+}
+
+#produto3{
+    margin-left: 325px;
+    margin-top: -15px;
+    
+
+
+}
+.btn{
+    height: 35px;
+
+    width: 35px;
+    border-radius: 16px 16px 16px 16px;
+    background-color: transparent;
+    position: 10px;
+    border: solid 1px;
+     
+}
+.btn a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+
+}
+.btn a:hover{
+    
+    color: #00BFFF;
+
+}
+.paginas{
+    display: flex;
+    align-items: center; /* alinhando os elementos na vertical*/
+    margin-right: 100px;
+    padding-left: 550px;
+    padding-top: 30px;
+
+}
+#pbtn{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+.carrinho{
+    margin-top: 30px;
+    padding-right:  100px;
+    margin-left: -50px;
+    background-color: #FAFAFA; 
+    width: 990px;
+
+}
+#tamanholixo{
+   text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#tamanholixo a:hover{
+   color: #00BFFF;
+}
+.comprar{
+    display: flex;
+    align-items: center; /* alinhando os elementos na vertical*/
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.btncomprar {
+    height: 30px;
+
+    width: 150px;
+    border-radius: 10px 8px 10px 8px;
+    background-color: #424242;
+    position: 10px;
+    cursor: pointer;
+    
+}
+.btncomprar a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: -3px;
+    color: white;
+
+}
+
+.btncomprar  a:hover {
+    color: #00BFFF;
+    
+
+}
+
+.btncheckout {
+    height: 30px;
+
+    width: 150px;
+    border-radius: 10px 8px 10px 8px;
+    background-color: #424242;
+    position: 10px;
+    cursor: pointer;
+    
+}
+
+.btncheckout a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -3px;
+    color: white;
+
+}
+.btncheckout a:hover {
+    color: #00BFFF;
+    
+
+}
+.small-container{
+   
+    margin-left: 190px;
+    padding-right: 20px;
+
+}
+
+.single-product{
+   margin-top: -300px; 
+}
+.pequena-img{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100px;
+ 
+
+}
+.posicaoimg{
+    margin-left: 195px;
+
+}
+.posicaoimg2{
+    margin-left: 395px;
+
+}
+
+
+#hy{
+    margin-top: -100px;
+
+}
+.detalhep{
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.imp{
+
+}
+.detalheproduto{
+    margin-left: 530px;
+
+}
+#nomeproduto{
+    margin-left: 510px;
+    margin-top: -5px;
+}
+
+
+#nomeproduto p{
+    font-size: 20px;
+    color: #666;
+}
+#inputqtd{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.addcar{
+    border-radius: 16px 15px 16px 15px;
+    height: 30px;
+    width: 150px;
+    margin-left: 15px;
+    color: white;
+    font-size: 12px;
+    background-color: #424242;
+    cursor: pointer;
+}
+.descricao {
+    font-size: 13px;
+    color: #666;
+}
+.linhavertical{
+    border: solid 2px;
+    border-color:#E6E6E6; 
+    margin-top: -250px;
+    margin-left: 100px;
+    height: 300px;
+    width: 20px;
+
+    background-color: #E6E6E6;
+    
+}
+
+
+.label{
+    
+    margin-left: 150px;
+}
+.label1{
+    
+    margin-left: 150px;
+}
+
+.label2{
+    
+    margin-left: 150px;
+}
+
+.linhavertical1{
+    border: solid 2px;
+    border-color:#E6E6E6; 
+    margin-top: -10px;
+    margin-left: 50px;
+    height: 600px;
+    width: 1050px;
+
+    background-color: #E6E6E6;
+    
+}
+.enviarsms{
+    margin-top: -420px;
+    margin-left: 600px
+}
+.inputcontacto{
+    height: 50px;
+    width: 400px;
+}
+textarea{
+   height: 100px;
+    width: 400px; 
+}
+.login{
+    margin-top: -465px;
+    margin-left: 600px
+
+}
+
+.registar{
+    margin-top: 70px;
+    margin-right: 600px;
+    margin-left: 50px;
+    
+}

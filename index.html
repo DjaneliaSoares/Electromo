@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>DJA-STORE</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+
+	<script src="https://kit.fontawesome.com/840ae83381.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js.index.js">
+       
+    </script>
+</head>
+<body onLoad="slide1()">
+<header>
+
+    <div id="top" >
+  
+
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i>  Alameda Manuel Van-Dunen, Luanda Shopping
+         
+        </p>
+
+   <p id="login"><i class="fa-solid fa-user"></i> <a href="login.html" class="configlogin"> Login</a>   
+         
+        </p>
+        
+  
+   </div>
+
+
+
+   <div id="cabecalho">
+       <div id="area-logo">
+                <a href="index.html">
+                <img src="img/log1.png" alt="logotipo" id="logotipo">
+                </a>
+                <form><input type="text" name="Pesq" id="input" placeholder="   Pesquisar produtos" required="required"><button class="button" ><i class="fa-solid fa-magnifying-glass"></i></button></form>
+
+                <p id="contacto"><i class="fa-solid fa-phone"></i>  : 800-2345-6789</p>
+
+        </div>
+
+        <nav id="menu">
+
+                <ul>
+                    <li ><a href="index.html" >   Home</a></li>
+                    <li><a href="sobre.html">  Sobre</a></li>
+                    <li><a href="contacto.html">  Contactos</a></li>
+                
+                    <li><a href="#" class="minhaconta"> <i class="fa fa-user-circle-o" aria-hidden="true"></i>    Minha conta</a></li>
+                     <li><a href="carrinho.html"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>    0 Item(s)</a></li>
+                </ul>
+
+
+            </nav>
+
+       
+
+
+        
+        <div id="caixaproduto">
+
+        	<p id="Produto"><a href="produto.html" id="caixap">Produtos</a> </p>
+
+        </div>
+
+        <div class="carrossel">
+            <div >
+                 <img id="img" class="contaier">
+                 
+                  
+            </div>
+
+                 
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+           
+             <div class="cartao">
+           
+                <img src="img/produto.jpeg">
+                <div class="conteudo">
+                   <h4 class="formato">Compre Agora</h4>
+                   <h1>Phones Bluetooth Wireless</h1>
+                   <p>Venha fazer parte do Black Friday </p>
+               </div>
+             
+           </div>
+    
+           
+           <div class="cartao" id="posicao1">
+           
+                <img src="img/produto1.jpeg">
+                <div class="conteudo">
+                    <h4 class="formato">Compre Agora</h4>
+                    <h1>Relógio Smart of watches</h1>
+                    <p>Venha fazer parte do Black Friday </p>
+                </div>     
+          </div>
+         
+          
+           <div class="cartao" id="posicao2">
+           
+                <img src="img/produto1.jpeg">
+                <div class="conteudo">
+                    <h4 class="formato">Compre Agora</h4>
+                    <h1>Relógio Smart of watches </h1>
+                    <p>Venha fazer parte do Black Friday</p>
+                </div>     
+          </div>
+          
+       
+
+ 
+
+
+
+
+        
+      
+     
+<footer>
+    <div class="row" >
+        <div class="col-md-3" id="inf">
+            <label >Informação</label>
+            
+            <ul>
+                 <br>
+                <li><a href="#" class="menufooter">Sobre</a></li>
+                <li><a href="#" class="menufooter">Informações de entrega</a></li>
+                <li><a href="#"class="menufooter">Política de privacidade</a></li>
+                <li><a href="#"class="menufooter">Termos & condições</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <label >Minha conta</label>
+           
+
+
+            <ul>
+                 <br>
+                <li><a href="#"class="menufooter">Minha conta</a></li>
+                <li><a href="#"class="menufooter"> Histórico da Ordem</a></li>
+                <li><a href="#" class="menufooter">Encontre uma lista de desejos</a></li>
+                <li><a href="#" class="menufooter">Vales-presente</a></li>
+            </ul>
+        </div> 
+        <div class="col-md-2">
+            <label >Atendimento ao cliente</label>
+           
+            <ul>
+                 <br>
+                <li><a href="#" class="menufooter">contacto</a></li>
+                <li><a href="#" class="menufooter">Retornan</a></li>
+                <li><a href="#" class="menufooter">Mapa do site</a></li>
+                <li><a href="#" class="menufooter">Blogue</a></li>
+               
+        </div>
+        
+
+
+
+
+        
+    </div>
+     <br>
+     <br>
+     <br>
+
+    <hr>
+    <div>
+        <img src="img/log1 - Cópia.png" class="imgfooter"> Electromo - 2022 | © todos os direitos reservados
+    </div>
+
+</footer>
+   </div>
+
+           
+</header>
+<script type="text/javascript">
+function slide1(){
+document.getElementById('img').src="img/Captura Web1 (1).jpeg";
+setTimeout("slide2()", 2000)
+}
+
+function slide2(){
+document.getElementById('img').src="img/Captura Web1 (2).jpeg";
+setTimeout("slide3()", 2000)
+}
+
+function slide3(){
+document.getElementById('img').src="img/Captura Web1 (3).jpeg";
+setTimeout("slide1()", 2000)
+}
+</script>
+
+
+
+	
+<script src="js/main.js"></script>
+
+</body>
+</html>
